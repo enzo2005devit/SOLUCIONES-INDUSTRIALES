@@ -35,7 +35,6 @@ class MyDataBank(DataBank):
             print(f"Error writing to holding registers: {e}")
 
         return True
-
 Var = 0
 xd = 0
 
@@ -45,10 +44,10 @@ try:
     while(Var == 0):
        print(MyDataBank.get_holding_registers(2,15))
        if(xd == 0):
-        print('starting')
-        server.start()
-        print('is online')
-        xd = 1
+         print('starting')
+         server.start()
+         print('is online')
+         xd = 1
 
         
 except Exception as algo:

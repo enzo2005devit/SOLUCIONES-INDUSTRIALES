@@ -17,4 +17,4 @@ while True:
     else:
         print("Failed to write value") 
    # sleep 2s before next polling
-   time.sleep(2)
+time.sleep(2)
